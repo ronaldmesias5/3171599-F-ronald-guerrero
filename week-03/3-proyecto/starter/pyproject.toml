@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "week03-starter"
+version = "0.1.0"
+description = "Starter for Week 03 - Project Catalog (Sistema de gestión de proyectos colaborativos)"
+authors = ["Bootcamp"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+SQLAlchemy = "^2.0"
+pydantic = "^2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+
